@@ -256,6 +256,14 @@ form {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+
+}
+.hebergements-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 .hebergements-cards img {
     width: 95%;
@@ -276,17 +284,7 @@ form {
     margin-top:5px ;
 }
 
-.line1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.line2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
+
 .afficher-plus{
     padding-top: 30px;
 }
