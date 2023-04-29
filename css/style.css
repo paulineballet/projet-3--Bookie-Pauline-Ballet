@@ -275,6 +275,7 @@ form {
 .hebergements-cards .card{
     margin-top: 20px;
     width: 250.33px;
+    margin-bottom: 30px;
 }
 .hebergements-cards .card-txt{
     margin-top:5px ;
@@ -285,7 +286,7 @@ form {
 }
 
 
-.afficher-plus{
+.afficher-plus .hebergement{
     padding-top: 30px;
 }
 .afficher-plus a{
@@ -293,6 +294,7 @@ form {
     font-size: 18px;
     color:black;
     text-decoration: none;
+    padding-top: 30px;
     
 }
 .afficher-plus a:visited{
