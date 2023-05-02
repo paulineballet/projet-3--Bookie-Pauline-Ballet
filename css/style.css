@@ -212,6 +212,9 @@ form {
 .spacing-p2{
     padding-left: 10px;
 } 
+.boutons-filtres .fa-solid{
+    margin-left: 15px;
+}
 
 .fa-info{
     border: 1px solid #D9D9D9;
@@ -266,9 +269,8 @@ form {
 
 }
 .hebergements-cards img {
-    width: 95%;
+    width: 100%;
     height: 124px;
-    border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -276,6 +278,7 @@ form {
     margin-top: 20px;
     width: 250.33px;
     margin-bottom: 30px;
+    order: 5px solid #FFFFFF;
 }
 .hebergements-cards .card-txt{
     margin-top:5px ;
