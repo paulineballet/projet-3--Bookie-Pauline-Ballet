@@ -110,20 +110,16 @@ nav li {
     text-decoration: none;
 }
 
-nav a :hover{
-    border-top: 2px solid var(--main-color);
-    color: var(--main-color);
-    display: flex;
-    align-items: start;
-    margin-top: 0;
-    
-    
-}
-header a{
+header li{
     text-decoration: none;
 }
-
-
+.hover{
+    padding-top: 20px;
+}
+.hover:hover{
+    color: var(--main-color);
+    box-shadow: 0 -2px 0 var(--main-color);
+}
 nav ul a:visited{
     
         color:black;
@@ -278,7 +274,6 @@ form {
     margin-top: 20px;
     width: 250.33px;
     margin-bottom: 30px;
-    order: 5px solid #FFFFFF;
 }
 .hebergements-cards .card-txt{
     margin-top:5px ;
@@ -470,9 +465,5 @@ footer , .liste-footer {
     .activités-a-marseille .activités{
         width: 200px;
    
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
+    }
 }
